@@ -10,7 +10,7 @@
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 20px;
-  background-color: @item;
+  background-color: transparent;
 
   .oo-NativeScroller--fake-height {
     height: 115%;
@@ -84,4 +84,26 @@
 
 [oo-NativeScroller~="z:100"] {
   z-index: 100;
+}
+
+[oo-NativeScroller~="level:1"] {
+  z-index: 100;
+}
+
+[oo-NativeScroller~="level:4"] {
+  z-index: 400;
+}
+
+[oo-NativeScroller~="level:5"] {
+  z-index: 500;
+}
+
+[oo-NativeScroller~="flex"] {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+[oo-NativeScroller~="flex:end"] {
+  align-items: flex-end;
 }
