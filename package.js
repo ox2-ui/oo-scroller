@@ -1,7 +1,7 @@
 Package.describe({
   name: 'ox2:scroller',
   summary: 'TESTING_DO_NOT_USE Native scroller',
-  version: '2.1.0',
+  version: '2.2.0',
   git: ' /* Fill me in! */ '
 });
 
@@ -13,11 +13,12 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.0.2');
   // Core
   api.use([
-    'templating'
+    'templating',
+    'less'
     ]);
   // 3rd party
   api.use([
-    'lauricio:less-autoprefixer@2.5.0_3','mquandalle:jade@0.4.1'
+    'mquandalle:jade@0.4.9'
     ]);
   api.addFiles('lib/oo-scroller.jade', C);
   api.addFiles('lib/oo-scroller.js', C);
