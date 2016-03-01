@@ -1,7 +1,7 @@
 Package.describe({
   name: 'ox2:scroller',
   summary: 'TESTING_DO_NOT_USE Native scroller',
-  version: '2.3.0',
+  version: '2.4.0',
   git: ' /* Fill me in! */ '
 });
 
